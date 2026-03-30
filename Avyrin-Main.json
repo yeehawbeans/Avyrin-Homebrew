@@ -1,0 +1,35 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "AvyrinWorldofWonders",
+                "full": "Avyrin: World of Wonders",
+                "abbreviation": "AWW",
+                "color": "92487a",
+                "authors": [
+                    "Hazel"
+                ],
+                "convertedBy": [
+                    "Hazel"
+                ],
+                "dateReleased": "2025-11-12",
+                "version": "1.0",
+                "url": "https://example.com/smith-basket-brew(1)_copy.pdf"
+            }
+        ],
+        "edition": "one",
+        "status": "wip",
+        "dateAdded": 1762941135,
+        "dateLastModified": 1762941138
+    },
+    "monster": [
+        {
+            "name": "Lady Vanessa",
+            "source": "AvyrinWorldofWonders",
+            "size": [
+                "M"
+            ],
+            "type": "undead"
+        }
+    ]
+}
