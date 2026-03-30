@@ -213,70 +213,7 @@
                         "The vampire moves up to half its {@variantrule Speed|XPHB}, and it makes one Grave Strike attack."
                     ]
                 }
-            ],
-            "legendaryGroup": {
-                "name": "Vampire",
-                "source": "XMM"
-            },
-            "environment": [
-                "underdark",
-                "urban"
-            ],
-            "treasure": [
-                "any"
-            ],
-            "soundClip": {
-                "type": "internal",
-                "path": "bestiary/vampire.mp3"
-            },
-            "traitTags": [
-                "Legendary Resistances",
-                "Spider Climb"
-            ],
-            "senseTags": [
-                "SD"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C",
-                "X"
-            ],
-            "damageTags": [
-                "A",
-                "B",
-                "N",
-                "P",
-                "R"
-            ],
-            "spellcastingTags": [
-                "O"
-            ],
-            "miscTags": [
-                "HPR",
-                "MA"
-            ],
-            "conditionInflict": [
-                "charmed",
-                "grappled"
-            ],
-            "conditionInflictSpell": [
-                "charmed",
-                "prone"
-            ],
-            "savingThrowForced": [
-                "constitution"
-            ],
-            "savingThrowForcedLegendary": [
-                "wisdom"
-            ],
-            "savingThrowForcedSpell": [
-                "wisdom"
-            ],
-            "hasToken": true,
-            "hasFluff": true,
-            "hasFluffImages": true
+            ]
         }
     ]
 }
