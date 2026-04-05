@@ -340,11 +340,33 @@
 			"entries": [
 				"When you reach the Sorcerer level specified in the {@table Lineage Spells|AvyrinWorldofWonders|Ancestral Spells} table, you thereafter always have the listed spells prepared.",
 				{
-					"type": "statblock",
-					"tag": "table",
-					"source": "AvyrinWorldofWonders",
-					"name": "Lineage Spells",
-					"page": 5
+					"type": "table",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Cure Wounds|XPHB}, {@spell Guiding Bolt|XPHB}, {@spell Lesser Restoration|XPHB}, {@spell Scorching Ray|XPHB}"
+						],
+						[
+							"5",
+							"{@spell Aura of Vitality|XPHB}, {@spell Dispel Magic|XPHB}"
+						],
+						[
+							"7",
+							"{@spell Fire Shield|XPHB}, {@spell Wall of Fire|XPHB}"
+						],
+						[
+							"9",
+							"{@spell Greater Restoration|XPHB}, {@spell Flame Strike|XPHB}"
+						]
+					]
 				}
 			]
 		},
@@ -417,40 +439,6 @@
 			"header": 2,
 			"entries": [
 				"Your ancestor's protection redirects harmful magic away from you. While your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} feature is active, you gain {@variantrule Advantage|XPHB} on saving throws against spells. Once during your use of {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, when you fail a saving throw against a spell, you can choose to succeed instead."
-			]
-		}
-    ],
-    "table": [
-        {
-			"name": "Lineage Spells",
-			"source": "AvyrinWorldofWonders",
-			"page": 5,
-			"type": "table",
-			"colLabels": [
-				"Sorcerer Level",
-				"Spells"
-			],
-			"colStyles": [
-				"col-3 text-center",
-				"col-9"
-			],
-			"rows": [
-				[
-					"3",
-					"{@spell Command|XPHB}, {@spell Guidance|XPHB}, {@spell Locate Object|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Resistance|XPHB}, {@spell Spiritual Weapon|XPHB}"
-				],
-				[
-					"5",
-					"{@spell Magic Circle|XPHB}, {@spell Spirit Guardians|XPHB}"
-				],
-				[
-					"7",
-					"{@spell Divination|XPHB}, {@spell Locate Creature|XPHB}"
-				],
-				[
-					"9",
-					"{@spell Legend Lore|XPHB}, {@spell Yolande's Regal Presence|XPHB}"
-				]
 			]
 		}
     ]
