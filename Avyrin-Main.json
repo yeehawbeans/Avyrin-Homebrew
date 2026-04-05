@@ -287,12 +287,12 @@
     ],
     "subclassFeature": [ 
         {
-			"name": "Ancestral Sorcery",
+			"name": "Frost Sorcery",
 			"source": "AvyrinWorldofWonders",
 			"page": 5,
 			"className": "Sorcerer",
 			"classSource": "XPHB",
-			"subclassShortName": "Ancestral Sorcery",
+			"subclassShortName": "Frost Sorcery",
 			"subclassSource": "AvyrinWorldofWonders",
 			"level": 3,
 			"header": 1,
